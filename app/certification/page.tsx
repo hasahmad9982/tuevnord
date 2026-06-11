@@ -181,112 +181,21 @@ export default function CertificationPage() {
           </div>
         </div>
 
-        {/* Card */}
-        <div className="bg-white rounded-lg p-6 md:p-8 shadow-md mt-8">
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-            <div className="lg:col-span-3">
-              <h3 className="text-red-600 font-bold text-base mb-5">
-                ID No.: YN202504729
-              </h3>
 
-              <InfoRow
-                label="Name"
-                value="SARDAR ALI ALEEM KHAN"
-              />
-
-              <InfoRow
-                label="ID/Iqama No."
-                value="2620826343"
-              />
-
-              <InfoRow
-                label="Issued On"
-                value="16-11-2025"
-              />
-
-              <InfoRow
-                label="Valid Up To"
-                value="15-11-2026"
-              />
-            </div>
-
-            <div className="flex flex-col items-center gap-4">
-              <div className="w-full max-w-[160px] aspect-square bg-gradient-to-br from-blue-300 to-blue-100 border-4 border-blue-900 rounded flex items-center justify-center text-xs text-blue-900 font-bold">
-                PHOTO
-              </div>
-
-              <div className="w-full max-w-[128px] aspect-square bg-white border-2 border-gray-300 rounded flex items-center justify-center text-xs text-gray-400 text-center">
-                █ QR █
-                <br />
-                █ CODE █
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Success Banner */}
-        <div className="bg-gradient-to-r from-blue-700 to-blue-900 text-white px-5 py-4 rounded text-center font-bold text-base tracking-wide mt-8">
-          Has successfully completed the assessment and examination
-        </div>
       </section>
+      <div className='flex flex-col gap-5'>
+    <img src="/certs/samif.jpg" alt="card front view" />
+            <img src="/certs/samib.jpg" alt="card back view" />
 
-      {/* BACK OF CERTIFICATE */}
-      <section className=" rounded-lg p-6 md:p-8 ">
-        <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-3 mb-8 pb-5 border-b-2 border-gray-200">
-          <div className="text-red-600 font-bold text-base">
-            ID No.: YN202504729
-          </div>
+      </div>
 
-          <div className="text-blue-900 font-bold text-lg">
-            TÜV NORD
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <div className="border-2 border-blue-900 rounded p-7 min-h-48 flex items-center justify-center">
-            <div className="font-bold text-blue-900 text-center text-base leading-relaxed">
-              - SCAFFOLD ERECTOR
-              <br />
-              (TUBE & COUPLER)
-            </div>
-          </div>
-
-          <div>
-            <h4 className="text-blue-900 text-sm font-bold mb-4">
-              For Card Verification
-            </h4>
-
-            <ContactRow text="Tel Jubail: 013 340 7607" />
-            <ContactRow text="Fax Jubail: 013 340 7605" />
-            <ContactRow text="Tel Riyadh: 011 478 8214" />
-            <ContactRow text="Tel Jeddah: 012 610 9012" />
-            <ContactRow text="Tel Yanbu: 014 325 1475" />
-
-            <div className="mt-4 space-y-2 text-xs text-gray-800">
-              <div>
-                <strong>Website:</strong> www.fahstuv.com
-              </div>
-
-              <div>
-                <strong>Email:</strong> info@fahstuv.com
-              </div>
-            </div>
-
-            <div className="text-xs text-gray-600 mt-10">
-              ______________________
-              <br />
-              Authorized Signature
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-gradient-to-r from-blue-700 to-blue-900 text-white px-5 py-3 rounded text-center font-bold text-sm mt-8">
-          This card is issued by and remains the property of FAHSS/TUV
-        </div>
-      </section>
+  
     </main>
   );
 }
+
+
+
 
 function Field({
   label,
