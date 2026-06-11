@@ -46,8 +46,8 @@ export default function CertificationPage() {
 
       </section>
       <div className='flex flex-col gap-5'>
-    <img src="/certs/samif.jpg" alt="card front view" />
-            <img src="/certs/samib.jpg" alt="card back view" />
+    <img src="/certs/sami-f.jpg" alt="card front view" />
+            <img src="/certs/sami-b.jpg" alt="card back view" />
 
       </div>
 
